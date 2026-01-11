@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="interface.css">
+    <link rel="stylesheet" href="../CSS/interface.css">
     <title>Interface chatbot</title>
 </head>
 <body>
-    <form action="" method="post">
-        <label for="userInput">Entrez votre message :</label><br>
-        <input type="text" id="userInput" name="userInput" required><br><br>
-        <input type="submit" value="Envoyer">
-    </form>
-    
+    <div class="container">
+        <div class="chat-container">
+  <div class="chat-header">Chatbot Ecole</div>
+    <div class="chat-messages">
+        <div class="message">Bonjour! Comment puis-je vous aider aujourd'hui?</div>
+    </div>
+  <div class="chat-input">
+    <input type="text" placeholder="Tapez votre question...">
+    <button>Envoyer</button>
+  </div>
+</div>
+    </div>
 </body>
 </html>
